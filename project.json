@@ -2,7 +2,7 @@
     "project": {
         "full_name": "Support de bras anti gravité",
         "slug": "support-de-bras-anti-gravite",
-        "short_description": "Construire un support articulé permettant à une personne en fauteuil ayant une très faibletonicité musculaire du bras gauche d'en changer la position sans l'aide d'un tiers.",
+        "short_description": "Construire un support articulé permettant à une personne en fauteuil ayant une très faible tonicité musculaire du bras gauche d'en changer la position sans l'aide d'un tiers.",
         "lang": "fr",
         "license": "CC BY",
         "about": "Construire un support articulé permettant à une personne en fauteuil ayant une très faible tonicité musculaire du bras gauche d'en changer la position sans l'aide d'un tiers.",
@@ -266,6 +266,12 @@
                             "url": "images/Annexe4_plan_pieces_metal_Bras_compensateur.jpg",
                             "caption": "Annexe4 : plan des pieces métal : Bras compensateur"
                         }
+                    },
+                    {
+                        "image": {
+                            "url": "images/Annexe2_vue_eclatee_mecanisme_bras_compensateur.jpg",
+                            "caption": "Annexe2 vue eclatée du mécanisme du bras compensateur"
+                        }
                     }
                 ]
             },
@@ -373,6 +379,37 @@
                         }
                     }
                 ]
+            },
+            {
+                "title": "Vues du support de bras anti gravité sous divers angles",
+                "duration": 0,
+                "content": "",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/Annexe3_vue_du_dispositif_sous_divers_angles_1.jpg",
+                            "caption": "Vue 1"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/Annexe3_vue_du_dispositif_sous_divers_angles_2.jpg",
+                            "caption": "Vue2"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/Annexe3_vue_du_dispositif_sous_divers_angles_3.jpg",
+                            "caption": "Vue 3"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/Annexe3_vue_du_dispositif_sous_divers_angles_4.jpg",
+                            "caption": "Vue 4"
+                        }
+                    }
+                ]
             }
         ],
         "featured_images": [
@@ -386,6 +423,18 @@
                 "image": {
                     "url": "images/Bras_antiG_pic2.jpeg",
                     "caption": "Vue globale du support de bras anti gravité 2"
+                }
+            },
+            {
+                "image": {
+                    "url": "images/Annexe1_cotes_usinages.jpg",
+                    "caption": "Côtes usinage"
+                }
+            },
+            {
+                "image": {
+                    "url": "images/Annexe2_vue_eclatee_mecanisme_bras_compensateur.jpg",
+                    "caption": "Annexe2 vue eclatée du mécanisme du bras compensateur"
                 }
             }
         ]
