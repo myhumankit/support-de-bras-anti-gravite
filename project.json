@@ -82,6 +82,26 @@
                             "github_repository": "myhumankit"
                         }
                     }
+                ],
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/Annexe4_plan_pieces_metal_Element1_fixation_bras.jpg",
+                            "caption": "Annexe4 : plan pieces metal : Element1 de la fixation du bras.jpg"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/Annexe4_plan_pieces_metal_Element2_fixation_bras.jpg",
+                            "caption": "Annexe4 : plan pieces metal : Element2 de la fixation du bras.jpg"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/Annexe4_plan_pieces_metal_Element3_fixation_bras.jpg",
+                            "caption": "Annexe4 : plan pieces metal : Element3 de la fixation du bras.jpg"
+                        }
+                    }
                 ]
             },
             {
