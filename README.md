@@ -4,7 +4,7 @@
 
 Construire un support articulé permettant à une personne en fauteuil ayant une très faible tonicité musculaire du bras gauche d'en changer la position sans l'aide d'un tiers.
 
-![featured_image](https://raw.githubusercontent.com/myhumankit/myworkshop/master/images/default_featured_image.jpg)
+![featured_image](images/images/Bras_antiG_pic1.jpeg)
 
 ## Liens
  * [documentation du projet](https://docs.humanlab.me/myhumankit/support-de-bras-anti-gravite)
