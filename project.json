@@ -1,0 +1,37 @@
+{
+    "project": {
+        "full_name": "Support de bras anti gravité",
+        "slug": "support-de-bras-anti-gravite",
+        "short_description": "Construire un support articulé permettant à une personne en fauteuil ayant une très faibletonicité musculaire du bras gauche d'en changer la position sans l'aide d'un tiers.",
+        "lang": "fr",
+        "license": "CC BY",
+        "about": "Construire un support articulé permettant à une personne en fauteuil ayant une très faibletonicité musculaire du bras gauche d'en changer la position sans l'aide d'un tiers.",
+        "status": "draft",
+        "links": [
+            {
+                "url": "https://rennes.humanlab.me/projet/support-de-bras-anti-gravite/",
+                "text": "page d'accueil du projet sur le GesLab",
+                "fa5_icon": "fas fa-home"
+            },
+            {
+                "url": "http://wikilab.myhumankit.org/index.php?title=Projets:Support_de_bras_anti_gravite",
+                "text": "page wiki du projet sur le wiki du Humanlab",
+                "fa5_icon": "fab fa-wikipedia-w"
+            },
+            
+            {
+                "url": "https://github.com/myhumankit/support-de-bras-anti-gravite",
+                "text": "code source de la documentation sur GitHub",
+                "fa5_icon": "fab fa-github"
+            }
+        ],
+        "contributors": [
+            {
+                "full_name": "Delphine Bézier",
+                "email": "delphine@myhumankit.org",
+                "github_username": "mnct",
+                "role": "Fabmanager référent"
+            }
+        ]
+    }
+}
