@@ -81,10 +81,10 @@
                     },
                     {
                         "component": {
-                            "slug": "attache-rapide-selle-velo",
+                            "slug": "serrage_rapide_collier_de_selle_60mm",
                             "quantity": 1,
                             "github_organization": "myhumankit",
-                            "github_repository": "myhumankit"
+                            "github_repository": "myworkshop-humanlab-components"
                         }
                     }
                 ],
