@@ -35,7 +35,7 @@
         "steps": [
             {
                 "title": "Pièce de fixation au montant du dossier du fauteuil.",
-                "duration": 300,
+                "duration": 240,
                 "content": "On perce un trou de 8 mm de part en part dans le tube carré de 35x35x70 à 25 mm de son extrémité.\nLe tube carré de 35x35x150 est coupé à chaque extrémité selon un angle de 76° par rapport à\nl'horizontale puis coupé sur le coté d'une extrémité à 15° par rapport à la verticale.\nLes deux tubes carrés sont ensuite brasés bout à bout selon un angle de 166°.\nLe tube carré de 30x30x70 est coupé dans le sens de la longueur pour obtenir un U de 7x30x70 mm.\n\nOn effectue ensuite à la meuleuse une fente de 20mm de haut sur 6mm de large dans le milieu du\nbas de ce U.\nCelui-ci est ensuite brasé sur les tubes carrés assemblés au niveau du biais de 15°. (voir schéma)\nL'ensemble est fixé au fauteuil en le glissant sur l'axe de l'attache rapide elle-même passée dans le\nmontant du fauteuil à la place du boulon de fixation de la ceinture.\nLe serrage rapide fixe donc à la fois le bras anti G et l'attache de ceinture.\nNB : arrondir les arrêtes et les angles et ébavurer les découpes.",
                 "inputs": [
                     {
@@ -83,13 +83,71 @@
                         }
                     }
                 ]
+            },
+            {
+                "title": "Support de la pièce de compensation",
+                "duration": 300,
+                "content": "Le tube carré est coupé à 220 mm de long.\nOn perce un trou de 8 mm de part en part dans le tube carré à 25 mm d'une extrémité.\nOn supprime les côtés adjacents au perçage sur une longueur de 50 mm.\nPuis on arrondit au touret les cotés en saillie restants.\nA l'autre extrémité, on brase un écrou épais de 8 mm ou un manchon raccord de tige filetée de 8 mm\nà l'intérieur du tube sur un des côtés comportant un perçage. On alèse ensuite l'écrou ou le manchon\navec un foret pour faire disparaître le filetage.\n**NB : On peut remplacer aussi cet écrou par un cylindre de 8mm de diamètre intérieur sur 10 mm\nmaxi de long mais c'est peut être moins facile à trouver.**\n\nOn fait une ouverture dans le même coté que celui où l'écrou a été brasé sur 30 mm de long par 10\nmm de large et à 85 mm de l'extrémité arrondie (passage du boulon poêlier tendant le ressort).\nA partir d'un chute de plat en acier, on brase ensuite 2 supports en « oreille » (avec un trou de 6 mm\nau centre) de chaque côté de la face comportant l'ouverture de 30x10 mm pour servir de support à\nl'axe du bras de compensation. Cet axe doit se trouver à 90 mm de l'extrémité où est brasé l'écrou\nsupport du réglage.\nLe support rotatif est raccordé à la pièce de fixation au fauteuil par un boulon de 8x50 mm arrêté\npar un écrou nylstop servant d'axe vertical de rotation.",
+                "inputs": [
+                    {
+                        "profile": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "length": 220,
+                            "section": {
+                                "type": "square_tube",
+                                "width": 40,
+                                "thickness": 1
+                            }
+                        }
+                    },
+                    {
+                        "nut": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "threading": "M",
+                            "diameter": 8,
+                            "type": "Hex"
+                        }
+                    },
+                    {
+                        "screw": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "head": "H",
+                            "head_option": "",
+                            "driving": "",
+                            "threading": "M",
+                            "diameter": 8,
+                            "length": 50
+                        }
+                    },
+                    {
+                        "screw": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "head": "H",
+                            "head_option": "",
+                            "driving": "",
+                            "threading": "M",
+                            "diameter": 6,
+                            "length": 50
+                        }
+                    }
+                ]
             }
         ],
         "featured_images": [
             {
                 "image": {
-                    "url": "",
-                    "caption": ""
+                    "url": "images/Bras_antiG_pic1.jpeg",
+                    "caption": "Vue global du support de bras anti gravité"
+                }
+            },
+            {
+                "image": {
+                    "url": "images/Bras_antiG_pic2.jpeg",
+                    "caption": "Vue globale du support de bras anti gravité 2"
                 }
             }
         ]
