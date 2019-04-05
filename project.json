@@ -263,8 +263,8 @@
                 "media": [
                     {
                         "image": {
-                            "url": "images/Annexe4_plan_pieces_metal_Support_bras_compensateur.jpg",
-                            "caption": "Annexe4 : plan des pieces métal : Support du bras compensateur"
+                            "url": "images/Annexe4_plan_pieces_metal_Bras_compensateur.jpg",
+                            "caption": "Annexe4 : plan des pieces métal : Bras compensateur"
                         }
                     }
                 ]
@@ -350,6 +350,26 @@
                         "component": {
                             "slug": "",
                             "quantity": 1
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/attelle.jpg",
+                            "caption": "illustration attelle"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/gouttiere_illustration.jpg",
+                            "caption": "Vue de la gouttière sur le support de bras"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/manchon.jpg",
+                            "caption": "manchon"
                         }
                     }
                 ]
