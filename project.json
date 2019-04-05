@@ -5,7 +5,7 @@
         "short_description": "Construire un support articulé permettant à une personne en fauteuil ayant une très faibletonicité musculaire du bras gauche d'en changer la position sans l'aide d'un tiers.",
         "lang": "fr",
         "license": "CC BY",
-        "about": "Construire un support articulé permettant à une personne en fauteuil ayant une très faibletonicité musculaire du bras gauche d'en changer la position sans l'aide d'un tiers.",
+        "about": "Construire un support articulé permettant à une personne en fauteuil ayant une très faible tonicité musculaire du bras gauche d'en changer la position sans l'aide d'un tiers.",
         "status": "draft",
         "links": [
             {
@@ -18,7 +18,6 @@
                 "text": "page wiki du projet sur le wiki du Humanlab",
                 "fa5_icon": "fab fa-wikipedia-w"
             },
-            
             {
                 "url": "https://github.com/myhumankit/support-de-bras-anti-gravite",
                 "text": "code source de la documentation sur GitHub",
@@ -28,9 +27,70 @@
         "contributors": [
             {
                 "full_name": "Delphine Bézier",
+                "role": "Fabmanager référent",
                 "email": "delphine@myhumankit.org",
-                "github_username": "mnct",
-                "role": "Fabmanager référent"
+                "github_username": "mnct"
+            }
+        ],
+        "steps": [
+            {
+                "title": "Pièce de fixation au montant du dossier du fauteuil.",
+                "duration": 300,
+                "content": "On perce un trou de 8 mm de part en part dans le tube carré de 35x35x70 à 25 mm de son extrémité.\nLe tube carré de 35x35x150 est coupé à chaque extrémité selon un angle de 76° par rapport à\nl'horizontale puis coupé sur le coté d'une extrémité à 15° par rapport à la verticale.\nLes deux tubes carrés sont ensuite brasés bout à bout selon un angle de 166°.\nLe tube carré de 30x30x70 est coupé dans le sens de la longueur pour obtenir un U de 7x30x70 mm.\n\nOn effectue ensuite à la meuleuse une fente de 20mm de haut sur 6mm de large dans le milieu du\nbas de ce U.\nCelui-ci est ensuite brasé sur les tubes carrés assemblés au niveau du biais de 15°. (voir schéma)\nL'ensemble est fixé au fauteuil en le glissant sur l'axe de l'attache rapide elle-même passée dans le\nmontant du fauteuil à la place du boulon de fixation de la ceinture.\nLe serrage rapide fixe donc à la fois le bras anti G et l'attache de ceinture.\nNB : arrondir les arrêtes et les angles et ébavurer les découpes.",
+                "inputs": [
+                    {
+                        "profile": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "length": 70,
+                            "section": {
+                                "type": "square_tube",
+                                "width": 30,
+                                "thickness": 1
+                            }
+                        }
+                    },
+                    {
+                        "profile": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "length": 70,
+                            "section": {
+                                "type": "square_tube",
+                                "width": 35,
+                                "thickness": 1
+                            }
+                        }
+                    },
+                    {
+                        "profile": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "length": 150,
+                            "section": {
+                                "type": "square_tube",
+                                "width": 35,
+                                "thickness": 1
+                            }
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "attache-rapide-selle-velo",
+                            "quantity": 1,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myhumankit"
+                        }
+                    }
+                ]
+            }
+        ],
+        "featured_images": [
+            {
+                "image": {
+                    "url": "",
+                    "caption": ""
+                }
             }
         ]
     }
