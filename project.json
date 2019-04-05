@@ -215,7 +215,71 @@
                     },
                     {
                         "component": {
-                            "slug": "ressort de traction 60mm à 120 mm (charge utile de 4kg)",
+                            "slug": "ressort-de-traction-60mm-a-120mm-charge-utile-de-4kg",
+                            "quantity": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Support de gouttière",
+                "duration": 300,
+                "content": "Le fer plat est coupé à 200 mm et les extrémités sont arrondies au touret.\nA 15 mm d'une extrémité on perce un trou de 10 mm.\nA 17 mm de l'autre extrémité on perce un trou de 8 mm.\n\nPour venir soutenir le bras par en-dessous, le support de bras doit être 5 cm plus bas que le boulon\nde fixation du fauteuil.\nIl faut donc réaliser une entretoise cylindrique de 50 mm de haut par 30 mm de diamètre imprimée\nen 3D (ou cylindre de récup avec un trou de 10 mm dans son axe) pour abaisser le support de bras\nd'autant.\n\nLa plat de 30 mm x 200 mm est fixé avec l'entretoise à la pièce de compensation par un boulon de\n10mm x 65 mm arrêté par un écrou nylstop de 10mm. Il dispose donc d'une liberté de rotation dans\nle plan horizontal.",
+                "inputs": [
+                    {
+                        "sheet": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "thickness": 4,
+                            "length": 200,
+                            "width": 30
+                        }
+                    },
+                    {
+                        "screw": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "head": "H",
+                            "head_option": "",
+                            "driving": "",
+                            "threading": "M",
+                            "diameter": 10,
+                            "length": 65
+                        }
+                    },
+                    {
+                        "screw": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "head": "H",
+                            "head_option": "",
+                            "driving": "",
+                            "threading": "M",
+                            "diameter": 8,
+                            "length": 12
+                        }
+                    },
+                    {
+                        "nut": {
+                            "quantity": 1,
+                            "material": "nylon",
+                            "threading": "M",
+                            "diameter": 10,
+                            "type": "Hex"
+                        }
+                    },
+                    {
+                        "nut": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "threading": "M",
+                            "diameter": 4,
+                            "type": "Hex"
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "entretoise-3D",
                             "quantity": 1
                         }
                     }
