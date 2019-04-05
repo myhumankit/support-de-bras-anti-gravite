@@ -284,6 +284,19 @@
                         }
                     }
                 ]
+            },
+            {
+                "title": "Gouttière",
+                "duration": 300,
+                "content": "Une autre pièce imprimée en 3D est fixée du côté du perçage de 8 mm par un boulon de 8x12 mm\nnoyé dans la pièce imprimée et arrêté par un écrou nylstop de 8 mm.\n\nCette pièce incurvée en forme de gouttière sert de support à l'attelle de\nmaintien du bras à laquelle elle peut être fixée par un scratch.\nL'attelle peut être constituée d'une protection d'avant bras pour le tir à\nl'arc et sur laquelle on fixera une bande scratch.\n\nOn utilise un scratch de 25 ou 30 mm de large collé à la colle néoprène\nsur toute la longueur de la pièce imprimée. On supprime cependant un\ntiers de la surface des crochets du scratch au fer à souder ou au cutter\nafin d'avoir une force d'adhérence du collage supérieure à celle de\nl'arrachement du scratch.\n\nCette pièce est aussi rotative dans la plan horizontal afin de permettre\nune meilleure adaptation à l'utilisateur.\n\n**Remarque : Mettre des rondelles d'ajustage (très faible épaisseur) sur tous les axes de rotation pour\nen faciliter le fonctionnement.**\n\nL'ensemble pourra être habillé d'un manchon de grosse toile imperméable avec un serrage à chaque\nextrémité qui le protègera tout en lui conférant une esthétique moins « mécanique ».\n\nNB : les fichiers STL des pièces à imprimer sont à télécharger ici : models\nAfin d'assurer la solidité des pièces imprimées il faut au minimum 50 % de densité de remplissage",
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": "",
+                            "quantity": 1
+                        }
+                    }
+                ]
             }
         ],
         "featured_images": [
