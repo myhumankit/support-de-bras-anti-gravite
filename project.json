@@ -35,7 +35,7 @@
         "steps": [
             {
                 "title": "Pièce de fixation au montant du dossier du fauteuil.",
-                "duration": 240,
+                "duration": 14400,
                 "content": "On perce un trou de 8 mm de part en part dans le tube carré de 35x35x70 à 25 mm de son extrémité.\nLe tube carré de 35x35x150 est coupé à chaque extrémité selon un angle de 76° par rapport à\nl'horizontale puis coupé sur le coté d'une extrémité à 15° par rapport à la verticale.\nLes deux tubes carrés sont ensuite brasés bout à bout selon un angle de 166°.\nLe tube carré de 30x30x70 est coupé dans le sens de la longueur pour obtenir un U de 7x30x70 mm.\n\nOn effectue ensuite à la meuleuse une fente de 20mm de haut sur 6mm de large dans le milieu du\nbas de ce U.\nCelui-ci est ensuite brasé sur les tubes carrés assemblés au niveau du biais de 15°. (voir schéma)\nL'ensemble est fixé au fauteuil en le glissant sur l'axe de l'attache rapide elle-même passée dans le\nmontant du fauteuil à la place du boulon de fixation de la ceinture.\nLe serrage rapide fixe donc à la fois le bras anti G et l'attache de ceinture.\nNB : arrondir les arrêtes et les angles et ébavurer les découpes.",
                 "inputs": [
                     {
@@ -86,7 +86,7 @@
             },
             {
                 "title": "Support de la pièce de compensation",
-                "duration": 300,
+                "duration": 18000,
                 "content": "Le tube carré est coupé à 220 mm de long.\nOn perce un trou de 8 mm de part en part dans le tube carré à 25 mm d'une extrémité.\nOn supprime les côtés adjacents au perçage sur une longueur de 50 mm.\nPuis on arrondit au touret les cotés en saillie restants.\nA l'autre extrémité, on brase un écrou épais de 8 mm ou un manchon raccord de tige filetée de 8 mm\nà l'intérieur du tube sur un des côtés comportant un perçage. On alèse ensuite l'écrou ou le manchon\navec un foret pour faire disparaître le filetage.\n**NB : On peut remplacer aussi cet écrou par un cylindre de 8mm de diamètre intérieur sur 10 mm\nmaxi de long mais c'est peut être moins facile à trouver.**\n\nOn fait une ouverture dans le même coté que celui où l'écrou a été brasé sur 30 mm de long par 10\nmm de large et à 85 mm de l'extrémité arrondie (passage du boulon poêlier tendant le ressort).\nA partir d'un chute de plat en acier, on brase ensuite 2 supports en « oreille » (avec un trou de 6 mm\nau centre) de chaque côté de la face comportant l'ouverture de 30x10 mm pour servir de support à\nl'axe du bras de compensation. Cet axe doit se trouver à 90 mm de l'extrémité où est brasé l'écrou\nsupport du réglage.\nLe support rotatif est raccordé à la pièce de fixation au fauteuil par un boulon de 8x50 mm arrêté\npar un écrou nylstop servant d'axe vertical de rotation.",
                 "inputs": [
                     {
@@ -132,6 +132,91 @@
                             "threading": "M",
                             "diameter": 6,
                             "length": 50
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Pièce de compensation",
+                "duration": 18000,
+                "content": "Le fer plat est constitué de 2 parties de 140 mm et 40 mm faisant un angle de 15° entre elles.\nLe plat de 180 mm est plié à chaud à cet angle à 40 mm d'une extrémité.\nOn arrondit les deux extrémités au touret.\n\nOn perce deux trous de diamètre 8 mm à 10 mm de l'extrémité du petit côté et à 14 mm de\nl'extrémité du grand côté.\n\nDans le trou de 8 du petit côté on brase un boulon poêlier de 8x40 et on pratique une entaille a 7\nmm de l'extrémité du boulon (pour y accrocher le ressort).\nOn brase ensuite à la base du grand côté (le long de la pliure de 15°) deux écrous épais de 6 mm (ou\nun tube de 6 mm intérieur) sur la largeur du plat (30 mm) pour servir de support d'axe.\n**NB : la position de cet axe peut être légèrement déplacée pour s'adapter à la résistance du ressort en\nfonction du poids à supporter.**\n\nOn brase sur un écrou épais de 8 mm un ergot de 10 mm sur lequel on pratique une entaille pour y\nfixer l'autre extrémité du ressort.\n\nUn boulon à tête hexa est passé dans l'écrou fixe (alésé et soudé au support de la pièce de\ncompensation) et vient se visser dans l'écrou libre comportant un ergot afin de régler la tension du\nressort de compensation.\nLa pièce de compensation est donc reliée à son support par un boulon de 6 mm x 40 mm et un écrou\nnylstop de 6 mm passant dans les oreilles du support afin de servir d'axe horizontal de rotation.\n\nLe ressort devra être adapté au poids du bras à soutenir avec une capacité de charge légèrement\ninférieure au triple du poids à compenser. Ex : ressort de capacité de 4 kg env. pour un bras de 1,4\nkg de poids. ( CF : position de brasage du support d'axe ci-dessus).",
+                "inputs": [
+                    {
+                        "sheet": {
+                            "quantity": 1,
+                            "material": "undefined",
+                            "thickness": 4,
+                            "length": 180,
+                            "width": 30
+                        }
+                    },
+                    {
+                        "nut": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "threading": "M",
+                            "diameter": 8,
+                            "type": "Hex"
+                        }
+                    },
+                    {
+                        "nut": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "threading": "M",
+                            "diameter": 6,
+                            "type": "Hex"
+                        }
+                    },
+                    {
+                        "screw": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "head": "RL",
+                            "head_option": "",
+                            "driving": "",
+                            "threading": "M",
+                            "diameter": 8,
+                            "length": 40
+                        }
+                    },
+                    {
+                        "screw": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "head": "H",
+                            "head_option": "B",
+                            "driving": "",
+                            "threading": "M",
+                            "diameter": 8,
+                            "length": 60
+                        }
+                    },
+                    {
+                        "screw": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "head": "H",
+                            "head_option": "",
+                            "driving": "",
+                            "threading": "M",
+                            "diameter": 6,
+                            "length": 35
+                        }
+                    },
+                    {
+                        "nut": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "threading": "M",
+                            "diameter": 6,
+                            "type": "Nylon"
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "ressort de traction 60mm à 120 mm (charge utile de 4kg)",
+                            "quantity": 1
                         }
                     }
                 ]
