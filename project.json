@@ -34,6 +34,11 @@
         ],
         "steps": [
             {
+                "title": "Impression des deux pièces en 3D",
+                "duration": 22200,
+                "content": "Télécharger les deux fichiers stl [dans le dossier models](/models) : \n- Bras_antiG_entretoise.stl\n-  [Bras_antiG_support_gouttiere](/models/Bras_antiG_support_gouttiere.stl) : \n\nOuvrir le logiciel Cura ou un autre logiciel pour paramétrer les impressions et l'imprimante 3D utilisé.\n\nDéfinir une densité de remplissage de 90% pour que la pièce soit suffisament solide (préférer le filament de type ABS plutôt que PLA pour plus de solidité)"
+            },
+            {
                 "title": "Pièce de fixation au montant du dossier du fauteuil.",
                 "duration": 14400,
                 "content": "On perce un trou de 8 mm de part en part dans le tube carré de 35x35x70 à 25 mm de son extrémité.\nLe tube carré de 35x35x150 est coupé à chaque extrémité selon un angle de 76° par rapport à\nl'horizontale puis coupé sur le coté d'une extrémité à 15° par rapport à la verticale.\nLes deux tubes carrés sont ensuite brasés bout à bout selon un angle de 166°.\nLe tube carré de 30x30x70 est coupé dans le sens de la longueur pour obtenir un U de 7x30x70 mm.\n\nOn effectue ensuite à la meuleuse une fente de 20mm de haut sur 6mm de large dans le milieu du\nbas de ce U.\nCelui-ci est ensuite brasé sur les tubes carrés assemblés au niveau du biais de 15°. (voir schéma)\nL'ensemble est fixé au fauteuil en le glissant sur l'axe de l'attache rapide elle-même passée dans le\nmontant du fauteuil à la place du boulon de fixation de la ceinture.\nLe serrage rapide fixe donc à la fois le bras anti G et l'attache de ceinture.\nNB : arrondir les arrêtes et les angles et ébavurer les découpes.",
@@ -350,15 +355,7 @@
             {
                 "title": "Gouttière",
                 "duration": 300,
-                "content": "Une autre pièce imprimée en 3D est fixée du côté du perçage de 8 mm par un boulon de 8x12 mm\nnoyé dans la pièce imprimée et arrêté par un écrou nylstop de 8 mm.\n\nCette pièce incurvée en forme de gouttière sert de support à l'attelle de\nmaintien du bras à laquelle elle peut être fixée par un scratch.\nL'attelle peut être constituée d'une protection d'avant bras pour le tir à\nl'arc et sur laquelle on fixera une bande scratch.\n\nOn utilise un scratch de 25 ou 30 mm de large collé à la colle néoprène\nsur toute la longueur de la pièce imprimée. On supprime cependant un\ntiers de la surface des crochets du scratch au fer à souder ou au cutter\nafin d'avoir une force d'adhérence du collage supérieure à celle de\nl'arrachement du scratch.\n\nCette pièce est aussi rotative dans la plan horizontal afin de permettre\nune meilleure adaptation à l'utilisateur.\n\n**Remarque : Mettre des rondelles d'ajustage (très faible épaisseur) sur tous les axes de rotation pour\nen faciliter le fonctionnement.**\n\nL'ensemble pourra être habillé d'un manchon de grosse toile imperméable avec un serrage à chaque\nextrémité qui le protègera tout en lui conférant une esthétique moins « mécanique ».\n\nNB : les fichiers STL des pièces à imprimer sont à télécharger ici : models\nAfin d'assurer la solidité des pièces imprimées il faut au minimum 50 % de densité de remplissage",
-                "inputs": [
-                    {
-                        "component": {
-                            "slug": "",
-                            "quantity": 1
-                        }
-                    }
-                ],
+                "content": "Une autre pièce imprimée en 3D est fixée du côté du perçage de 8 mm par un boulon de 8x12 mm\nnoyé dans la pièce imprimée et arrêté par un écrou nylstop de 8 mm.\n\nCette pièce incurvée en forme de gouttière sert de support à l'attelle de\nmaintien du bras à laquelle elle peut être fixée par un scratch.\nL'attelle peut être constituée d'une protection d'avant bras pour le tir à\nl'arc et sur laquelle on fixera une bande scratch.\n\nOn utilise un scratch de 25 ou 30 mm de large collé à la colle néoprène\nsur toute la longueur de la pièce imprimée. On supprime cependant un\ntiers de la surface des crochets du scratch au fer à souder ou au cutter\nafin d'avoir une force d'adhérence du collage supérieure à celle de\nl'arrachement du scratch.\n\nCette pièce est aussi rotative dans la plan horizontal afin de permettre\nune meilleure adaptation à l'utilisateur.\n\n**Remarque : Mettre des rondelles d'ajustage (très faible épaisseur) sur tous les axes de rotation pour\nen faciliter le fonctionnement.**\n\nL'ensemble pourra être habillé d'un manchon de grosse toile imperméable avec un serrage à chaque\nextrémité qui le protègera tout en lui conférant une esthétique moins « mécanique ».\n\n",
                 "media": [
                     {
                         "image": {
@@ -378,12 +375,20 @@
                             "caption": "manchon"
                         }
                     }
+                ],
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": "",
+                            "quantity": 1
+                        }
+                    }
                 ]
             },
             {
                 "title": "Vues du support de bras anti gravité sous divers angles",
                 "duration": 0,
-                "content": "",
+                "content": "Télécharger les deux fichiers stl [dans le dossier models](/models) : \n- Bras_antiG_entretoise.stl\n-  [Bras_antiG_support_gouttiere](/models/Bras_antiG_support_gouttiere.stl) : \n\nOuvrir le logiciel Cura ou un autre logiciel pour paramétrer les impressions et l'imprimante 3D utilisé.\n\nDéfinir une densité de remplissage de 90% pour que la pièce soit suffisament solide (préférer le filament de type ABS plutôt que PLA pour plus de solidité)",
                 "media": [
                     {
                         "image": {
