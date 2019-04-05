@@ -86,6 +86,12 @@
                 "media": [
                     {
                         "image": {
+                            "url": "images/support_bras_antiG_intro.jpg",
+                            "caption": "Vue de la fixation du support de bras anti gravité sur le fauteuil"
+                        }
+                    },
+                    {
+                        "image": {
                             "url": "images/Annexe4_plan_pieces_metal_Element1_fixation_bras.jpg",
                             "caption": "Annexe4 : plan pieces metal : Element1 de la fixation du bras.jpg"
                         }
@@ -100,6 +106,12 @@
                         "image": {
                             "url": "images/Annexe4_plan_pieces_metal_Element3_fixation_bras.jpg",
                             "caption": "Annexe4 : plan pieces metal : Element3 de la fixation du bras.jpg"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/Annexe4_plan_pieces_metal_Fixation_bras_assemblee_soudee.jpg",
+                            "caption": "Annexe4 plan des pièces en métal : Fixation du bras assemblée (soudée)"
                         }
                     }
                 ]
@@ -239,6 +251,14 @@
                             "quantity": 1
                         }
                     }
+                ],
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/Annexe4_plan_pieces_metal_Support_bras_compensateur.jpg",
+                            "caption": "Annexe4 : plan des pieces métal : Support du bras compensateur"
+                        }
+                    }
                 ]
             },
             {
@@ -301,6 +321,14 @@
                         "component": {
                             "slug": "entretoise-3D",
                             "quantity": 1
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/Annexe4_plan_pieces_metal_Support_gouttiere.jpg",
+                            "caption": "Annexe4 plan pièces metal : Support gouttière.jpg"
                         }
                     }
                 ]
