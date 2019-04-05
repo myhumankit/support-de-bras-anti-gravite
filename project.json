@@ -81,7 +81,7 @@
                     },
                     {
                         "component": {
-                            "slug": "serrage_rapide_collier_de_selle_60mm",
+                            "slug": "serrage-rapide-collier-de-selle-60mm",
                             "quantity": 1,
                             "github_organization": "myhumankit",
                             "github_repository": "myworkshop-humanlab-components"
