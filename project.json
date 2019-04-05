@@ -144,7 +144,7 @@
                     {
                         "sheet": {
                             "quantity": 1,
-                            "material": "undefined",
+                            "material": "steel",
                             "thickness": 4,
                             "length": 180,
                             "width": 30
