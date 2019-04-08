@@ -402,7 +402,7 @@
             {
                 "title": "Vues du support de bras anti gravité sous divers angles",
                 "duration": 0,
-                "content": "Télécharger les deux fichiers stl [dans le dossier models](/models) : \n- Bras_antiG_entretoise.stl\n-  [Bras_antiG_support_gouttiere](/models/Bras_antiG_support_gouttiere.stl) : \n\nOuvrir le logiciel Cura ou un autre logiciel pour paramétrer les impressions et l'imprimante 3D utilisé.\n\nDéfinir une densité de remplissage de 90% pour que la pièce soit suffisament solide (préférer le filament de type ABS plutôt que PLA pour plus de solidité)",
+                "content": "",
                 "media": [
                     {
                         "image": {
