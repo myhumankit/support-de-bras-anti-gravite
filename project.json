@@ -429,6 +429,37 @@
                         }
                     }
                 ]
+            },
+            {
+                "title": "Variante   (Support de bras à rotation limitée)",
+                "duration": 300,
+                "content": "**Objet :  **modifier l'entretoise reliant la pièce de compensation au support du bras afin de permettre la rotation mais avec une course limitée pour que la gouttière de support du bras de l'utilisateur ne vienne pas en appui sur lui.\n\nPour ce faire, il faut usiner une entretoise en dural au même diamètre que l'entretoise d'origine (cylindre de 50 mm de haut par 30 mm de diamètre) . L'impression 3D ne donnerait pas une pièce de résitance suffisante.Cette entretoise est percée de part en part d'un trou de 8,5 mm de diamètre fileté au pas M10.Sur la base de celle-ci, on usine avec une fraise de 5mm une dépouille en arc de cercle de 90° qui servira de guide à un ergot fixé sur le support de bras.  \n\nSur le dessus, un boulon de 10 x 20 mm, serré à fond sur le bras compensateur, bloque l'entretoise dans la position voulue pour que le débattement du support de bras soit orienté comme voulu.\n\nSur le dessous, un autre boulon de 10 x 20 mm, maintient le support de bras non serré pour lui permettre de pivoter.   Ce boulon est bloqué dans sa position par une vis de serrage perpendiculaire à son axe.\n\nLe support de bras est muni d'un ergot de diamètre correspondant à la dépouille faite dans l'entretoise (5mm) afin de limiter sa rotation et servir de butée comme décrit ci-dessus.",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/variante_photo1.jpg",
+                            "caption": "Variante photo1"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/variante_photo2.jpg",
+                            "caption": "variante-photo2.jpg"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/variante_photo3.jpg",
+                            "caption": "variante-photo3"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "variante_photo4.jpg",
+                            "caption": "variante photo 4"
+                        }
+                    }
+                ]
             }
         ],
         "featured_images": [
