@@ -459,6 +459,20 @@
                             "caption": "variante photo 4"
                         }
                     }
+                ],
+                "inputs": [
+                    {
+                        "screw": {
+                            "quantity": 2,
+                            "material": "steel",
+                            "head": "H",
+                            "head_option": "",
+                            "driving": "",
+                            "threading": "M",
+                            "diameter": 10,
+                            "length": 20
+                        }
+                    }
                 ]
             }
         ],
