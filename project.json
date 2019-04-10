@@ -100,20 +100,6 @@
                             "github_organization": "myhumankit",
                             "github_repository": "myworkshop-humanlab-components"
                         }
-                    },
-                    {
-                        "tool": {
-                            "slug": "meuleuse",
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-humanlab-tools"
-                        }
-                    },
-                    {
-                        "tool": {
-                            "slug": "poste-a-souder-a-l-arc",
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-humanlab-tools"
-                        }
                     }
                 ],
                 "media": [
@@ -197,20 +183,6 @@
                             "threading": "M",
                             "diameter": 6,
                             "length": 50
-                        }
-                    },
-                    {
-                        "tool": {
-                            "slug": "poste-a-souder-a-l-arc",
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-humanlab-tools"
-                        }
-                    },
-                    {
-                        "tool": {
-                            "slug": "meuleuse",
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-humanlab-tools"
                         }
                     }
                 ],
@@ -305,21 +277,6 @@
                             "slug": "ressort-de-traction-60mm-a-120mm-charge-utile-de-4kg",
                             "quantity": 1
                         }
-                    },
-                    {
-                        "tool": {
-                            "slug": "poste-a-souder-a-l-arc",
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-humanlab-tools"
-                        }
-                    },
-                    {
-                        "tool": {
-                            "slug": "perceuse-a-colonne",
-                            "quantity": 1,
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-humanlab-tools"
-                        }
                     }
                 ],
                 "media": [
@@ -398,13 +355,6 @@
                             "slug": "entretoise-3D",
                             "quantity": 1
                         }
-                    },
-                    {
-                        "tool": {
-                            "slug": "touret",
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-humanlab-tools"
-                        }
                     }
                 ],
                 "media": [
@@ -445,13 +395,6 @@
                         "file": {
                             "name": "Support gouttiere en 3D",
                             "url": "models/Bras_antiG_support_gouttiere.stl"
-                        }
-                    },
-                    {
-                        "tool": {
-                            "slug": "colle-neoprene",
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-humanlab-tools"
                         }
                     }
                 ]
