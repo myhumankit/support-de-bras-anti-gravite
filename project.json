@@ -401,7 +401,7 @@
                     },
                     {
                         "tool": {
-                            "slug": "touret",
+                            "slug": "touret-a-meuler",
                             "github_organization": "myhumankit",
                             "github_repository": "myworkshop-humanlab-tools"
                         }
