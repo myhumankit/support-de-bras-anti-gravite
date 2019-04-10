@@ -314,7 +314,7 @@
                         }
                     },
                     {
-                        "component": {
+                        "tool": {
                             "slug": "perceuse-a-colonne",
                             "quantity": 1,
                             "github_organization": "myhumankit",
