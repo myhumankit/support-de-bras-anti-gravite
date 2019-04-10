@@ -392,9 +392,9 @@
                 ],
                 "inputs": [
                     {
-                        "component": {
-                            "slug": "",
-                            "quantity": 1
+                        "file": {
+                            "name": "gouttiere",
+                            "url": "models/gouttiere.stl"
                         }
                     }
                 ]
