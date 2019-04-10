@@ -393,7 +393,7 @@
                 "inputs": [
                     {
                         "file": {
-                            "name": "gouttiere",
+                            "name": "Support gouttiere en 3D",
                             "url": "models/Bras_antiG_support_gouttiere.stl"
                         }
                     }
