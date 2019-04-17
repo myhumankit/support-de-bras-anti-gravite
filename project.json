@@ -26,6 +26,14 @@
         ],
         "contributors": [
             {
+                "full_name": "Nicolas Pousset",
+                "role": "Porteur de projet"
+            },
+            {
+                "full_name": "Yves Le Chevalier",
+                "role": "Contributeur"
+            },
+            {
                 "full_name": "Delphine Bézier",
                 "role": "Fabmanager référent",
                 "email": "delphine@myhumankit.org",
