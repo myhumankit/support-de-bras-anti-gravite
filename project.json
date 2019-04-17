@@ -64,6 +64,13 @@
                             "github_organization": "myhumankit",
                             "github_repository": "myworkshop-humanlab-tools"
                         }
+                    },
+                    {
+                        "tool": {
+                            "slug": "Cura",
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-tools"
+                        }
                     }
                 ]
             },
