@@ -1,571 +1,562 @@
 {
     "project": {
-        "full_name": "",
-        "slug": "",
-        "short_description": "",
+        "full_name": "Support de bras anti gravité",
+        "slug": "support-de-bras-anti-gravite",
+        "short_description": "Construire un support articulé permettant à une personne en fauteuil ayant une très faible tonicité musculaire du bras gauche d'en changer la position sans l'aide d'un tiers.",
         "lang": "fr",
         "license": "CC BY",
-        "about": "Quelques mots sur le projet : le contexte, son histoire, etc. ...",
-        "project": {
-            "full_name": "Support de bras anti gravité",
-            "slug": "support-de-bras-anti-gravite",
-            "short_description": "Construire un support articulé permettant à une personne en fauteuil ayant une très faible tonicité musculaire du bras gauche d'en changer la position sans l'aide d'un tiers.",
-            "lang": "fr",
-            "license": "CC BY",
-            "about": "Construire un support articulé permettant à une personne en fauteuil ayant une très faible tonicité musculaire du bras gauche d'en changer la position sans l'aide d'un tiers.",
-            "status": "draft",
-            "links": [
-                {
-                    "url": "https://rennes.humanlab.me/projet/support-de-bras-anti-gravite/",
-                    "text": "page d'accueil du projet sur le GesLab",
-                    "fa5_icon": "fas fa-home"
-                },
-                {
-                    "url": "http://wikilab.myhumankit.org/index.php?title=Projets:Support_de_bras_anti_gravite",
-                    "text": "page wiki du projet sur le wiki du Humanlab",
-                    "fa5_icon": "fab fa-wikipedia-w"
-                },
-                {
-                    "url": "https://github.com/myhumankit/support-de-bras-anti-gravite",
-                    "text": "code source de la documentation sur GitHub",
-                    "fa5_icon": "fab fa-github"
-                }
-            ],
-            "contributors": [
-                {
-                    "full_name": "Delphine Bézier",
-                    "role": "Fabmanager référent",
-                    "email": "delphine@myhumankit.org",
-                    "github_username": "mnct"
-                }
-            ],
-            "steps": [
-                {
-                    "title": "Impression des deux pièces en 3D",
-                    "duration": 22200,
-                    "content": "Télécharger les deux fichiers stl : entretoise et support gouttière *  Bras_antiG_entretoise.stl *  Bras_antiG_support_gouttiere.stl : Les ouvrir dans le logiciel Cura ou un autre logiciel pour paramétrer les impressions.Définir une densité de remplissage de 90% pour que la pièce soit suffisament solide (préférer le filament de type ABS plutôt que PLA pour plus de solidité)",
-                    "inputs": [
-                        {
-                            "file": {
-                                "name": "entretoise",
-                                "url": "models/Bras_antiG_entretoise.stl"
-                            }
-                        },
-                        {
-                            "file": {
-                                "name": "support gouttière",
-                                "url": "models/Bras_antiG_support_gouttiere.stl "
-                            }
+        "about": "Construire un support articulé permettant à une personne en fauteuil ayant une très faible tonicité musculaire du bras gauche d'en changer la position sans l'aide d'un tiers.",
+        "status": "draft",
+        "links": [
+            {
+                "url": "https://rennes.humanlab.me/projet/support-de-bras-anti-gravite/",
+                "text": "page d'accueil du projet sur le GesLab",
+                "fa5_icon": "fas fa-home"
+            },
+            {
+                "url": "http://wikilab.myhumankit.org/index.php?title=Projets:Support_de_bras_anti_gravite",
+                "text": "page wiki du projet sur le wiki du Humanlab",
+                "fa5_icon": "fab fa-wikipedia-w"
+            },
+            {
+                "url": "https://github.com/myhumankit/support-de-bras-anti-gravite",
+                "text": "code source de la documentation sur GitHub",
+                "fa5_icon": "fab fa-github"
+            }
+        ],
+        "contributors": [
+            {
+                "full_name": "Delphine Bézier",
+                "role": "Fabmanager référent",
+                "email": "delphine@myhumankit.org",
+                "github_username": "mnct"
+            }
+        ],
+        "steps": [
+            {
+                "title": "Impression des deux pièces en 3D",
+                "duration": 22200,
+                "content": "Télécharger les deux fichiers stl : entretoise et support gouttière\n *  Bras_antiG_entretoise.stl\n *  Bras_antiG_support_gouttiere.stl : \n\nLes ouvrir dans le logiciel Cura ou un autre logiciel pour paramétrer les impressions.\n\nDéfinir une densité de remplissage de 90% pour que la pièce soit suffisament solide (préférer le filament de type ABS plutôt que PLA pour plus de solidité)\n\n",
+                "inputs": [
+                    {
+                        "file": {
+                            "name": "entretoise",
+                            "url": "models/Bras_antiG_entretoise.stl"
                         }
-                    ]
-                },
-                {
-                    "title": "Pièce de fixation au montant du dossier du fauteuil.",
-                    "duration": 14400,
-                    "content": "On perce un trou de 8 mm de part en part dans le tube carré de 35x35x70 à 25 mm de son extrémité.Le tube carré de 35x35x150 est coupé à chaque extrémité selon un angle de 76° par rapport àl'horizontale puis coupé sur le coté d'une extrémité à 15° par rapport à la verticale.Les deux tubes carrés sont ensuite brasés bout à bout selon un angle de 166°.Le tube carré de 30x30x70 est coupé dans le sens de la longueur pour obtenir un U de 7x30x70 mm.On effectue ensuite à la meuleuse une fente de 20mm de haut sur 6mm de large dans le milieu dubas de ce U.Celui-ci est ensuite brasé sur les tubes carrés assemblés au niveau du biais de 15°. (voir schéma)L'ensemble est fixé au fauteuil en le glissant sur l'axe de l'attache rapide elle-même passée dans lemontant du fauteuil à la place du boulon de fixation de la ceinture.Le serrage rapide fixe donc à la fois le bras anti G et l'attache de ceinture.NB : arrondir les arrêtes et les angles et ébavurer les découpes.",
-                    "inputs": [
-                        {
-                            "profile": {
-                                "quantity": 1,
-                                "material": "steel",
-                                "length": 70,
-                                "section": {
-                                    "type": "square_tube",
-                                    "width": 30,
-                                    "thickness": 1
-                                }
-                            }
-                        },
-                        {
-                            "profile": {
-                                "quantity": 1,
-                                "material": "steel",
-                                "length": 70,
-                                "section": {
-                                    "type": "square_tube",
-                                    "width": 35,
-                                    "thickness": 1
-                                }
-                            }
-                        },
-                        {
-                            "profile": {
-                                "quantity": 1,
-                                "material": "steel",
-                                "length": 150,
-                                "section": {
-                                    "type": "square_tube",
-                                    "width": 35,
-                                    "thickness": 1
-                                }
-                            }
-                        },
-                        {
-                            "component": {
-                                "slug": "serrage-rapide-collier-de-selle-60mm",
-                                "quantity": 1,
-                                "github_organization": "myhumankit",
-                                "github_repository": "myworkshop-humanlab-components"
-                            }
-                        },
-                        {
-                            "tool": {
-                                "slug": "meuleuse",
-                                "github_organization": "myhumankit",
-                                "github_repository": "myworkshop-humanlab-tools"
-                            }
-                        },
-                        {
-                            "tool": {
-                                "slug": "poste-a-souder-a-l-arc",
-                                "github_organization": "myhumankit",
-                                "github_repository": "myworkshop-humanlab-tools"
-                            }
+                    },
+                    {
+                        "file": {
+                            "name": "support gouttière",
+                            "url": "models/Bras_antiG_support_gouttiere.stl "
                         }
-                    ],
-                    "media": [
-                        {
-                            "image": {
-                                "url": "images/support_bras_antiG_intro.jpg",
-                                "caption": "Vue de la fixation du support de bras anti gravité sur le fauteuil"
-                            }
-                        },
-                        {
-                            "image": {
-                                "url": "images/Annexe4_plan_pieces_metal_Element1_fixation_bras.jpg",
-                                "caption": "Annexe4 : plan pieces metal : Element1 de la fixation du bras.jpg"
-                            }
-                        },
-                        {
-                            "image": {
-                                "url": "images/Annexe4_plan_pieces_metal_Element2_fixation_bras.jpg",
-                                "caption": "Annexe4 : plan pieces metal : Element2 de la fixation du bras.jpg"
-                            }
-                        },
-                        {
-                            "image": {
-                                "url": "images/Annexe4_plan_pieces_metal_Element3_fixation_bras.jpg",
-                                "caption": "Annexe4 : plan pieces metal : Element3 de la fixation du bras.jpg"
-                            }
-                        },
-                        {
-                            "image": {
-                                "url": "images/Annexe4_plan_pieces_metal_Fixation_bras_assemblee_soudee.jpg",
-                                "caption": "Annexe4 plan des pièces en métal : Fixation du bras assemblée (soudée)"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "title": "Support de la pièce de compensation",
-                    "duration": 18000,
-                    "content": "Le tube carré est coupé à 220 mm de long.On perce un trou de 8 mm de part en part dans le tube carré à 25 mm d'une extrémité.On supprime les côtés adjacents au perçage sur une longueur de 50 mm.Puis on arrondit au touret les cotés en saillie restants.A l'autre extrémité, on brase un écrou épais de 8 mm ou un manchon raccord de tige filetée de 8 mmà l'intérieur du tube sur un des côtés comportant un perçage. On alèse ensuite l'écrou ou le manchonavec un foret pour faire disparaître le filetage.**NB : On peut remplacer aussi cet écrou par un cylindre de 8mm de diamètre intérieur sur 10 mmmaxi de long mais c'est peut être moins facile à trouver.**On fait une ouverture dans le même coté que celui où l'écrou a été brasé sur 30 mm de long par 10mm de large et à 85 mm de l'extrémité arrondie (passage du boulon poêlier tendant le ressort).A partir d'un chute de plat en acier, on brase ensuite 2 supports en « oreille » (avec un trou de 6 mmau centre) de chaque côté de la face comportant l'ouverture de 30x10 mm pour servir de support àl'axe du bras de compensation. Cet axe doit se trouver à 90 mm de l'extrémité où est brasé l'écrousupport du réglage.Le support rotatif est raccordé à la pièce de fixation au fauteuil par un boulon de 8x50 mm arrêtépar un écrou nylstop servant d'axe vertical de rotation.",
-                    "inputs": [
-                        {
-                            "profile": {
-                                "quantity": 1,
-                                "material": "steel",
-                                "length": 220,
-                                "section": {
-                                    "type": "square_tube",
-                                    "width": 40,
-                                    "thickness": 1
-                                }
-                            }
-                        },
-                        {
-                            "nut": {
-                                "quantity": 1,
-                                "material": "steel",
-                                "threading": "M",
-                                "diameter": 8,
-                                "type": "Hex"
-                            }
-                        },
-                        {
-                            "screw": {
-                                "quantity": 1,
-                                "material": "steel",
-                                "head": "H",
-                                "head_option": "",
-                                "driving": "",
-                                "threading": "M",
-                                "diameter": 8,
-                                "length": 50
-                            }
-                        },
-                        {
-                            "screw": {
-                                "quantity": 1,
-                                "material": "steel",
-                                "head": "H",
-                                "head_option": "",
-                                "driving": "",
-                                "threading": "M",
-                                "diameter": 6,
-                                "length": 50
-                            }
-                        },
-                        {
-                            "tool": {
-                                "slug": "poste-a-souder-a-l-arc",
-                                "github_organization": "myhumankit",
-                                "github_repository": "myworkshop-humanlab-tools"
-                            }
-                        },
-                        {
-                            "tool": {
-                                "slug": "meuleuse",
-                                "github_organization": "myhumankit",
-                                "github_repository": "myworkshop-humanlab-tools"
-                            }
-                        }
-                    ],
-                    "media": [
-                        {
-                            "image": {
-                                "url": "images/Annexe4_plan_pieces_metal_Support_bras_compensateur.jpg",
-                                "caption": "Annexe4 : plan des pieces métal : Support du bras compensateur"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "title": "Pièce de compensation",
-                    "duration": 18000,
-                    "content": "Le fer plat est constitué de 2 parties de 140 mm et 40 mm faisant un angle de 15° entre elles.Le plat de 180 mm est plié à chaud à cet angle à 40 mm d'une extrémité.On arrondit les deux extrémités au touret.On perce deux trous de diamètre 8 mm à 10 mm de l'extrémité du petit côté et à 14 mm del'extrémité du grand côté.Dans le trou de 8 du petit côté on brase un boulon poêlier de 8x40 et on pratique une entaille a 7mm de l'extrémité du boulon (pour y accrocher le ressort).On brase ensuite à la base du grand côté (le long de la pliure de 15°) deux écrous épais de 6 mm (ouun tube de 6 mm intérieur) sur la largeur du plat (30 mm) pour servir de support d'axe.**NB : la position de cet axe peut être légèrement déplacée pour s'adapter à la résistance du ressort enfonction du poids à supporter.**On brase sur un écrou épais de 8 mm un ergot de 10 mm sur lequel on pratique une entaille pour yfixer l'autre extrémité du ressort.Un boulon à tête hexa est passé dans l'écrou fixe (alésé et soudé au support de la pièce decompensation) et vient se visser dans l'écrou libre comportant un ergot afin de régler la tension duressort de compensation.La pièce de compensation est donc reliée à son support par un boulon de 6 mm x 40 mm et un écrounylstop de 6 mm passant dans les oreilles du support afin de servir d'axe horizontal de rotation.Le ressort devra être adapté au poids du bras à soutenir avec une capacité de charge légèrementinférieure au triple du poids à compenser. Ex : ressort de capacité de 4 kg env. pour un bras de 1,4kg de poids. ( CF : position de brasage du support d'axe ci-dessus).",
-                    "inputs": [
-                        {
-                            "sheet": {
-                                "quantity": 1,
-                                "material": "steel",
-                                "thickness": 4,
-                                "length": 180,
-                                "width": 30
-                            }
-                        },
-                        {
-                            "nut": {
-                                "quantity": 1,
-                                "material": "steel",
-                                "threading": "M",
-                                "diameter": 8,
-                                "type": "Hex"
-                            }
-                        },
-                        {
-                            "nut": {
-                                "quantity": 1,
-                                "material": "steel",
-                                "threading": "M",
-                                "diameter": 6,
-                                "type": "Hex"
-                            }
-                        },
-                        {
-                            "screw": {
-                                "quantity": 1,
-                                "material": "steel",
-                                "head": "RL",
-                                "head_option": "",
-                                "driving": "",
-                                "threading": "M",
-                                "diameter": 8,
-                                "length": 40
-                            }
-                        },
-                        {
-                            "screw": {
-                                "quantity": 1,
-                                "material": "steel",
-                                "head": "H",
-                                "head_option": "B",
-                                "driving": "",
-                                "threading": "M",
-                                "diameter": 8,
-                                "length": 60
-                            }
-                        },
-                        {
-                            "screw": {
-                                "quantity": 1,
-                                "material": "steel",
-                                "head": "H",
-                                "head_option": "",
-                                "driving": "",
-                                "threading": "M",
-                                "diameter": 6,
-                                "length": 35
-                            }
-                        },
-                        {
-                            "nut": {
-                                "quantity": 1,
-                                "material": "steel",
-                                "threading": "M",
-                                "diameter": 6,
-                                "type": "Nylon"
-                            }
-                        },
-                        {
-                            "component": {
-                                "slug": "ressort-de-traction-60mm-a-120mm-charge-utile-de-4kg",
-                                "quantity": 1
-                            }
-                        },
-                        {
-                            "tool": {
-                                "slug": "poste-a-souder-a-l-arc",
-                                "github_organization": "myhumankit",
-                                "github_repository": "myworkshop-humanlab-tools"
-                            }
-                        },
-                        {
-                            "tool": {
-                                "slug": "perceuse-a-colonne",
-                                "quantity": 1,
-                                "github_organization": "myhumankit",
-                                "github_repository": "myworkshop-humanlab-tools"
-                            }
-                        }
-                    ],
-                    "media": [
-                        {
-                            "image": {
-                                "url": "images/Annexe4_plan_pieces_metal_Bras_compensateur.jpg",
-                                "caption": "Annexe4 : plan des pieces métal : Bras compensateur"
-                            }
-                        },
-                        {
-                            "image": {
-                                "url": "images/Annexe2_vue_eclatee_mecanisme_bras_compensateur.jpg",
-                                "caption": "Annexe2 vue eclatée du mécanisme du bras compensateur"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "title": "Support de gouttière",
-                    "duration": 300,
-                    "content": "Le fer plat est coupé à 200 mm et les extrémités sont arrondies au touret.A 15 mm d'une extrémité on perce un trou de 10 mm.A 17 mm de l'autre extrémité on perce un trou de 8 mm.Pour venir soutenir le bras par en-dessous, le support de bras doit être 5 cm plus bas que le boulonde fixation du fauteuil.Il faut donc réaliser une entretoise cylindrique de 50 mm de haut par 30 mm de diamètre impriméeen 3D (ou cylindre de récup avec un trou de 10 mm dans son axe) pour abaisser le support de brasd'autant.La plat de 30 mm x 200 mm est fixé avec l'entretoise à la pièce de compensation par un boulon de10mm x 65 mm arrêté par un écrou nylstop de 10mm. Il dispose donc d'une liberté de rotation dansle plan horizontal.",
-                    "inputs": [
-                        {
-                            "sheet": {
-                                "quantity": 1,
-                                "material": "steel",
-                                "thickness": 4,
-                                "length": 200,
-                                "width": 30
-                            }
-                        },
-                        {
-                            "screw": {
-                                "quantity": 1,
-                                "material": "steel",
-                                "head": "H",
-                                "head_option": "",
-                                "driving": "",
-                                "threading": "M",
-                                "diameter": 10,
-                                "length": 65
-                            }
-                        },
-                        {
-                            "screw": {
-                                "quantity": 1,
-                                "material": "steel",
-                                "head": "H",
-                                "head_option": "",
-                                "driving": "",
-                                "threading": "M",
-                                "diameter": 8,
-                                "length": 12
-                            }
-                        },
-                        {
-                            "nut": {
-                                "quantity": 1,
-                                "material": "nylon",
-                                "threading": "M",
-                                "diameter": 10,
-                                "type": "Hex"
-                            }
-                        },
-                        {
-                            "nut": {
-                                "quantity": 1,
-                                "material": "steel",
-                                "threading": "M",
-                                "diameter": 4,
-                                "type": "Hex"
-                            }
-                        },
-                        {
-                            "component": {
-                                "slug": "entretoise-3D",
-                                "quantity": 1
-                            }
-                        },
-                        {
-                            "tool": {
-                                "slug": "touret",
-                                "github_organization": "myhumankit",
-                                "github_repository": "myworkshop-humanlab-tools"
-                            }
-                        }
-                    ],
-                    "media": [
-                        {
-                            "image": {
-                                "url": "images/Annexe4_plan_pieces_metal_Support_gouttiere.jpg",
-                                "caption": "Annexe4 plan pièces metal : Support gouttière.jpg"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "title": "Gouttière",
-                    "duration": 300,
-                    "content": "Une autre pièce imprimée en 3D est fixée du côté du perçage de 8 mm par un boulon de 8x12 mmnoyé dans la pièce imprimée et arrêté par un écrou nylstop de 8 mm.Cette pièce incurvée en forme de gouttière sert de support à l'attelle demaintien du bras à laquelle elle peut être fixée par un scratch.L'attelle peut être constituée d'une protection d'avant bras pour le tir àl'arc et sur laquelle on fixera une bande scratch.On utilise un scratch de 25 ou 30 mm de large collé à la colle néoprènesur toute la longueur de la pièce imprimée. On supprime cependant untiers de la surface des crochets du scratch au fer à souder ou au cutterafin d'avoir une force d'adhérence du collage supérieure à celle del'arrachement du scratch.Cette pièce est aussi rotative dans la plan horizontal afin de permettreune meilleure adaptation à l'utilisateur.**Remarque : Mettre des rondelles d'ajustage (très faible épaisseur) sur tous les axes de rotation pouren faciliter le fonctionnement.**L'ensemble pourra être habillé d'un manchon de grosse toile imperméable avec un serrage à chaqueextrémité qui le protègera tout en lui conférant une esthétique moins « mécanique ».",
-                    "media": [
-                        {
-                            "image": {
-                                "url": "images/attelle.jpg",
-                                "caption": "illustration attelle"
-                            }
-                        },
-                        {
-                            "image": {
-                                "url": "images/gouttiere_illustration.jpg",
-                                "caption": "Vue de la gouttière sur le support de bras"
-                            }
-                        },
-                        {
-                            "image": {
-                                "url": "images/manchon.jpg",
-                                "caption": "manchon"
-                            }
-                        }
-                    ],
-                    "inputs": [
-                        {
-                            "file": {
-                                "name": "Support gouttiere en 3D",
-                                "url": "models/Bras_antiG_support_gouttiere.stl"
-                            }
-                        },
-                        {
-                            "tool": {
-                                "slug": "colle-neoprene",
-                                "github_organization": "myhumankit",
-                                "github_repository": "myworkshop-humanlab-tools"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "title": "Vues du support de bras anti gravité sous divers angles",
-                    "duration": 0,
-                    "content": "",
-                    "media": [
-                        {
-                            "image": {
-                                "url": "images/Annexe3_vue_du_dispositif_sous_divers_angles_1.jpg",
-                                "caption": "Vue 1"
-                            }
-                        },
-                        {
-                            "image": {
-                                "url": "images/Annexe3_vue_du_dispositif_sous_divers_angles_2.jpg",
-                                "caption": "Vue2"
-                            }
-                        },
-                        {
-                            "image": {
-                                "url": "images/Annexe3_vue_du_dispositif_sous_divers_angles_3.jpg",
-                                "caption": "Vue 3"
-                            }
-                        },
-                        {
-                            "image": {
-                                "url": "images/Annexe3_vue_du_dispositif_sous_divers_angles_4.jpg",
-                                "caption": "Vue 4"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "title": "Variante   (Support de bras à rotation limitée)",
-                    "duration": 7200,
-                    "content": "**Objet :  **modifier l'entretoise reliant la pièce de compensation au support du bras afin de permettre la rotation mais avec une course limitée pour que la gouttière de support du bras de l'utilisateur ne vienne pas en appui sur lui.Pour ce faire, il faut usiner une entretoise en dural au même diamètre que l'entretoise d'origine (cylindre de 50 mm de haut par 30 mm de diamètre) . L'impression 3D ne donnerait pas une pièce de résitance suffisante.Cette entretoise est percée de part en part d'un trou de 8,5 mm de diamètre fileté au pas M10.Sur la base de celle-ci, on usine avec une fraise de 5mm une dépouille en arc de cercle de 90° qui servira de guide à un ergot fixé sur le support de bras.  Sur le dessus, un boulon de 10 x 20 mm, serré à fond sur le bras compensateur, bloque l'entretoise dans la position voulue pour que le débattement du support de bras soit orienté comme voulu.Sur le dessous, un autre boulon de 10 x 20 mm, maintient le support de bras non serré pour lui permettre de pivoter.   Ce boulon est bloqué dans sa position par une vis de serrage perpendiculaire à son axe.Le support de bras est muni d'un ergot de diamètre correspondant à la dépouille faite dans l'entretoise (5mm) afin de limiter sa rotation et servir de butée comme décrit ci-dessus.",
-                    "media": [
-                        {
-                            "image": {
-                                "url": "images/variante_photo1.jpg",
-                                "caption": "Variante photo1"
-                            }
-                        },
-                        {
-                            "image": {
-                                "url": "images/variante_photo2.jpg",
-                                "caption": "variante-photo2.jpg"
-                            }
-                        },
-                        {
-                            "image": {
-                                "url": "images/variante_photo3.jpg",
-                                "caption": "variante-photo3"
-                            }
-                        },
-                        {
-                            "image": {
-                                "url": "variante_photo4.jpg",
-                                "caption": "variante photo 4"
-                            }
-                        }
-                    ],
-                    "inputs": [
-                        {
-                            "screw": {
-                                "quantity": 2,
-                                "material": "steel",
-                                "head": "H",
-                                "head_option": "",
-                                "driving": "",
-                                "threading": "M",
-                                "diameter": 10,
-                                "length": 20
-                            }
-                        }
-                    ]
-                }
-            ],
-            "featured_images": [
-                {
-                    "image": {
-                        "url": "images/Bras_antiG_pic1.jpeg",
-                        "caption": "Vue globale du support de bras anti gravité"
                     }
-                },
-                {
-                    "image": {
-                        "url": "images/Bras_antiG_pic2.jpeg",
-                        "caption": "Vue globale du support de bras anti gravité 2"
+                ]
+            },
+            {
+                "title": "Pièce de fixation au montant du dossier du fauteuil.",
+                "duration": 14400,
+                "content": "On perce un trou de 8 mm de part en part dans le tube carré de 35x35x70 à 25 mm de son extrémité.\nLe tube carré de 35x35x150 est coupé à chaque extrémité selon un angle de 76° par rapport à\nl'horizontale puis coupé sur le coté d'une extrémité à 15° par rapport à la verticale.\nLes deux tubes carrés sont ensuite brasés bout à bout selon un angle de 166°.\nLe tube carré de 30x30x70 est coupé dans le sens de la longueur pour obtenir un U de 7x30x70 mm.\n\nOn effectue ensuite à la meuleuse une fente de 20mm de haut sur 6mm de large dans le milieu du\nbas de ce U.\nCelui-ci est ensuite brasé sur les tubes carrés assemblés au niveau du biais de 15°. (voir schéma)\nL'ensemble est fixé au fauteuil en le glissant sur l'axe de l'attache rapide elle-même passée dans le\nmontant du fauteuil à la place du boulon de fixation de la ceinture.\nLe serrage rapide fixe donc à la fois le bras anti G et l'attache de ceinture.\nNB : arrondir les arrêtes et les angles et ébavurer les découpes.",
+                "inputs": [
+                    {
+                        "profile": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "length": 70,
+                            "section": {
+                                "type": "square_tube",
+                                "width": 30,
+                                "thickness": 1
+                            }
+                        }
+                    },
+                    {
+                        "profile": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "length": 70,
+                            "section": {
+                                "type": "square_tube",
+                                "width": 35,
+                                "thickness": 1
+                            }
+                        }
+                    },
+                    {
+                        "profile": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "length": 150,
+                            "section": {
+                                "type": "square_tube",
+                                "width": 35,
+                                "thickness": 1
+                            }
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "serrage-rapide-collier-de-selle-60mm",
+                            "quantity": 1,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    },
+                    {
+                        "tool": {
+                            "slug": "meuleuse",
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-tools"
+                        }
+                    },
+                    {
+                        "tool": {
+                            "slug": "poste-a-souder-a-l-arc",
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-tools"
+                        }
                     }
-                },
-                {
-                    "image": {
-                        "url": "images/Annexe1_cotes_usinages.jpg",
-                        "caption": "Cotes usinage"
+                ],
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/support_bras_antiG_intro.jpg",
+                            "caption": "Vue de la fixation du support de bras anti gravité sur le fauteuil"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/Annexe4_plan_pieces_metal_Element1_fixation_bras.jpg",
+                            "caption": "Annexe4 : plan pieces metal : Element1 de la fixation du bras.jpg"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/Annexe4_plan_pieces_metal_Element2_fixation_bras.jpg",
+                            "caption": "Annexe4 : plan pieces metal : Element2 de la fixation du bras.jpg"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/Annexe4_plan_pieces_metal_Element3_fixation_bras.jpg",
+                            "caption": "Annexe4 : plan pieces metal : Element3 de la fixation du bras.jpg"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/Annexe4_plan_pieces_metal_Fixation_bras_assemblee_soudee.jpg",
+                            "caption": "Annexe4 plan des pièces en métal : Fixation du bras assemblée (soudée)"
+                        }
                     }
-                },
-                {
-                    "image": {
-                        "url": "images/Annexe2_vue_eclatee_mecanisme_bras_compensateur.jpg",
-                        "caption": "Annexe2 vue eclatée du mécanisme du bras compensateur"
+                ]
+            },
+            {
+                "title": "Support de la pièce de compensation",
+                "duration": 18000,
+                "content": "Le tube carré est coupé à 220 mm de long.\nOn perce un trou de 8 mm de part en part dans le tube carré à 25 mm d'une extrémité.\nOn supprime les côtés adjacents au perçage sur une longueur de 50 mm.\nPuis on arrondit au touret les cotés en saillie restants.\nA l'autre extrémité, on brase un écrou épais de 8 mm ou un manchon raccord de tige filetée de 8 mm\nà l'intérieur du tube sur un des côtés comportant un perçage. On alèse ensuite l'écrou ou le manchon\navec un foret pour faire disparaître le filetage.\n**NB : On peut remplacer aussi cet écrou par un cylindre de 8mm de diamètre intérieur sur 10 mm\nmaxi de long mais c'est peut être moins facile à trouver.**\n\nOn fait une ouverture dans le même coté que celui où l'écrou a été brasé sur 30 mm de long par 10\nmm de large et à 85 mm de l'extrémité arrondie (passage du boulon poêlier tendant le ressort).\nA partir d'un chute de plat en acier, on brase ensuite 2 supports en « oreille » (avec un trou de 6 mm\nau centre) de chaque côté de la face comportant l'ouverture de 30x10 mm pour servir de support à\nl'axe du bras de compensation. Cet axe doit se trouver à 90 mm de l'extrémité où est brasé l'écrou\nsupport du réglage.\nLe support rotatif est raccordé à la pièce de fixation au fauteuil par un boulon de 8x50 mm arrêté\npar un écrou nylstop servant d'axe vertical de rotation.",
+                "inputs": [
+                    {
+                        "profile": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "length": 220,
+                            "section": {
+                                "type": "square_tube",
+                                "width": 40,
+                                "thickness": 1
+                            }
+                        }
+                    },
+                    {
+                        "nut": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "threading": "M",
+                            "diameter": 8,
+                            "type": "Hex"
+                        }
+                    },
+                    {
+                        "screw": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "head": "H",
+                            "head_option": "",
+                            "driving": "",
+                            "threading": "M",
+                            "diameter": 8,
+                            "length": 50
+                        }
+                    },
+                    {
+                        "screw": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "head": "H",
+                            "head_option": "",
+                            "driving": "",
+                            "threading": "M",
+                            "diameter": 6,
+                            "length": 50
+                        }
+                    },
+                    {
+                        "tool": {
+                            "slug": "poste-a-souder-a-l-arc",
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-tools"
+                        }
+                    },
+                    {
+                        "tool": {
+                            "slug": "meuleuse",
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-tools"
+                        }
                     }
+                ],
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/Annexe4_plan_pieces_metal_Support_bras_compensateur.jpg",
+                            "caption": "Annexe4 : plan des pieces métal : Support du bras compensateur"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Pièce de compensation",
+                "duration": 18000,
+                "content": "Le fer plat est constitué de 2 parties de 140 mm et 40 mm faisant un angle de 15° entre elles.\nLe plat de 180 mm est plié à chaud à cet angle à 40 mm d'une extrémité.\nOn arrondit les deux extrémités au touret.\n\nOn perce deux trous de diamètre 8 mm à 10 mm de l'extrémité du petit côté et à 14 mm de\nl'extrémité du grand côté.\n\nDans le trou de 8 du petit côté on brase un boulon poêlier de 8x40 et on pratique une entaille a 7\nmm de l'extrémité du boulon (pour y accrocher le ressort).\nOn brase ensuite à la base du grand côté (le long de la pliure de 15°) deux écrous épais de 6 mm (ou\nun tube de 6 mm intérieur) sur la largeur du plat (30 mm) pour servir de support d'axe.\n**NB : la position de cet axe peut être légèrement déplacée pour s'adapter à la résistance du ressort en\nfonction du poids à supporter.**\n\nOn brase sur un écrou épais de 8 mm un ergot de 10 mm sur lequel on pratique une entaille pour y\nfixer l'autre extrémité du ressort.\n\nUn boulon à tête hexa est passé dans l'écrou fixe (alésé et soudé au support de la pièce de\ncompensation) et vient se visser dans l'écrou libre comportant un ergot afin de régler la tension du\nressort de compensation.\nLa pièce de compensation est donc reliée à son support par un boulon de 6 mm x 40 mm et un écrou\nnylstop de 6 mm passant dans les oreilles du support afin de servir d'axe horizontal de rotation.\n\nLe ressort devra être adapté au poids du bras à soutenir avec une capacité de charge légèrement\ninférieure au triple du poids à compenser. Ex : ressort de capacité de 4 kg env. pour un bras de 1,4\nkg de poids. ( CF : position de brasage du support d'axe ci-dessus).",
+                "inputs": [
+                    {
+                        "sheet": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "thickness": 4,
+                            "length": 180,
+                            "width": 30
+                        }
+                    },
+                    {
+                        "nut": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "threading": "M",
+                            "diameter": 8,
+                            "type": "Hex"
+                        }
+                    },
+                    {
+                        "nut": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "threading": "M",
+                            "diameter": 6,
+                            "type": "Hex"
+                        }
+                    },
+                    {
+                        "screw": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "head": "RL",
+                            "head_option": "",
+                            "driving": "",
+                            "threading": "M",
+                            "diameter": 8,
+                            "length": 40
+                        }
+                    },
+                    {
+                        "screw": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "head": "H",
+                            "head_option": "B",
+                            "driving": "",
+                            "threading": "M",
+                            "diameter": 8,
+                            "length": 60
+                        }
+                    },
+                    {
+                        "screw": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "head": "H",
+                            "head_option": "",
+                            "driving": "",
+                            "threading": "M",
+                            "diameter": 6,
+                            "length": 35
+                        }
+                    },
+                    {
+                        "nut": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "threading": "M",
+                            "diameter": 6,
+                            "type": "Nylon"
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "ressort-de-traction-60mm-a-120mm-charge-utile-de-4kg",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "tool": {
+                            "slug": "poste-a-souder-a-l-arc",
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-tools"
+                        }
+                    },
+                    {
+                        "tool": {
+                            "slug": "perceuse-a-colonne",
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-tools"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/Annexe4_plan_pieces_metal_Bras_compensateur.jpg",
+                            "caption": "Annexe4 : plan des pieces métal : Bras compensateur"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/Annexe2_vue_eclatee_mecanisme_bras_compensateur.jpg",
+                            "caption": "Annexe2 vue eclatée du mécanisme du bras compensateur"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Support de gouttière",
+                "duration": 300,
+                "content": "Le fer plat est coupé à 200 mm et les extrémités sont arrondies au touret.\nA 15 mm d'une extrémité on perce un trou de 10 mm.\nA 17 mm de l'autre extrémité on perce un trou de 8 mm.\n\nPour venir soutenir le bras par en-dessous, le support de bras doit être 5 cm plus bas que le boulon\nde fixation du fauteuil.\nIl faut donc réaliser une entretoise cylindrique de 50 mm de haut par 30 mm de diamètre imprimée\nen 3D (ou cylindre de récup avec un trou de 10 mm dans son axe) pour abaisser le support de bras\nd'autant.\n\nLa plat de 30 mm x 200 mm est fixé avec l'entretoise à la pièce de compensation par un boulon de\n10mm x 65 mm arrêté par un écrou nylstop de 10mm. Il dispose donc d'une liberté de rotation dans\nle plan horizontal.",
+                "inputs": [
+                    {
+                        "sheet": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "thickness": 4,
+                            "length": 200,
+                            "width": 30
+                        }
+                    },
+                    {
+                        "screw": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "head": "H",
+                            "head_option": "",
+                            "driving": "",
+                            "threading": "M",
+                            "diameter": 10,
+                            "length": 65
+                        }
+                    },
+                    {
+                        "screw": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "head": "H",
+                            "head_option": "",
+                            "driving": "",
+                            "threading": "M",
+                            "diameter": 8,
+                            "length": 12
+                        }
+                    },
+                    {
+                        "nut": {
+                            "quantity": 1,
+                            "material": "nylon",
+                            "threading": "M",
+                            "diameter": 10,
+                            "type": "Hex"
+                        }
+                    },
+                    {
+                        "nut": {
+                            "quantity": 1,
+                            "material": "steel",
+                            "threading": "M",
+                            "diameter": 4,
+                            "type": "Hex"
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "entretoise-3D",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "tool": {
+                            "slug": "touret-a-meuler",
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-tools"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/Annexe4_plan_pieces_metal_Support_gouttiere.jpg",
+                            "caption": "Annexe4 plan pièces metal : Support gouttière.jpg"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Gouttière",
+                "duration": 300,
+                "content": "Une autre pièce imprimée en 3D est fixée du côté du perçage de 8 mm par un boulon de 8x12 mm\nnoyé dans la pièce imprimée et arrêté par un écrou nylstop de 8 mm.\n\nCette pièce incurvée en forme de gouttière sert de support à l'attelle de\nmaintien du bras à laquelle elle peut être fixée par un scratch.\nL'attelle peut être constituée d'une protection d'avant bras pour le tir à\nl'arc et sur laquelle on fixera une bande scratch.\n\nOn utilise un scratch de 25 ou 30 mm de large collé à la colle néoprène\nsur toute la longueur de la pièce imprimée. On supprime cependant un\ntiers de la surface des crochets du scratch au fer à souder ou au cutter\nafin d'avoir une force d'adhérence du collage supérieure à celle de\nl'arrachement du scratch.\n\nCette pièce est aussi rotative dans la plan horizontal afin de permettre\nune meilleure adaptation à l'utilisateur.\n\n**Remarque : Mettre des rondelles d'ajustage (très faible épaisseur) sur tous les axes de rotation pour\nen faciliter le fonctionnement.**\n\nL'ensemble pourra être habillé d'un manchon de grosse toile imperméable avec un serrage à chaque\nextrémité qui le protègera tout en lui conférant une esthétique moins « mécanique ».\n\n",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/attelle.jpg",
+                            "caption": "illustration attelle"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/gouttiere_illustration.jpg",
+                            "caption": "Vue de la gouttière sur le support de bras"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/manchon.jpg",
+                            "caption": "manchon"
+                        }
+                    }
+                ],
+                "inputs": [
+                    {
+                        "file": {
+                            "name": "Support gouttiere en 3D",
+                            "url": "models/Bras_antiG_support_gouttiere.stl"
+                        }
+                    },
+                    {
+                        "tool": {
+                            "slug": "colle-neoprene",
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-tools"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Vues du support de bras anti gravité sous divers angles",
+                "duration": 0,
+                "content": "",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/Annexe3_vue_du_dispositif_sous_divers_angles_1.jpg",
+                            "caption": "Vue 1"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/Annexe3_vue_du_dispositif_sous_divers_angles_2.jpg",
+                            "caption": "Vue2"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/Annexe3_vue_du_dispositif_sous_divers_angles_3.jpg",
+                            "caption": "Vue 3"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/Annexe3_vue_du_dispositif_sous_divers_angles_4.jpg",
+                            "caption": "Vue 4"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Variante (Support de bras à rotation limitée)",
+                "duration": 7200,
+                "content": "**Objet :  **modifier l'entretoise reliant la pièce de compensation au support du bras afin de permettre la rotation mais avec une course limitée pour que la gouttière de support du bras de l'utilisateur ne vienne pas en appui sur lui.\n\nPour ce faire, il faut usiner une entretoise en dural au même diamètre que l'entretoise d'origine (cylindre de 50 mm de haut par 30 mm de diamètre) . L'impression 3D ne donnerait pas une pièce de résitance suffisante.Cette entretoise est percée de part en part d'un trou de 8,5 mm de diamètre fileté au pas M10.Sur la base de celle-ci, on usine avec une fraise de 5mm une dépouille en arc de cercle de 90° qui servira de guide à un ergot fixé sur le support de bras.  \n\nSur le dessus, un boulon de 10 x 20 mm, serré à fond sur le bras compensateur, bloque l'entretoise dans la position voulue pour que le débattement du support de bras soit orienté comme voulu.\n\nSur le dessous, un autre boulon de 10 x 20 mm, maintient le support de bras non serré pour lui permettre de pivoter.   Ce boulon est bloqué dans sa position par une vis de serrage perpendiculaire à son axe.\n\nLe support de bras est muni d'un ergot de diamètre correspondant à la dépouille faite dans l'entretoise (5mm) afin de limiter sa rotation et servir de butée comme décrit ci-dessus.",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/variante_photo1.jpg",
+                            "caption": "Variante photo1"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/variante_photo2.jpg",
+                            "caption": "variante-photo2.jpg"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/variante_photo3.jpg",
+                            "caption": "variante-photo3"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "variante_photo4.jpg",
+                            "caption": "variante photo 4"
+                        }
+                    }
+                ],
+                "inputs": [
+                    {
+                        "screw": {
+                            "quantity": 2,
+                            "material": "steel",
+                            "head": "H",
+                            "head_option": "",
+                            "driving": "",
+                            "threading": "M",
+                            "diameter": 10,
+                            "length": 20
+                        }
+                    }
+                ]
+            }
+        ],
+        "featured_images": [
+            {
+                "image": {
+                    "url": "images/Bras_antiG_pic1.jpeg",
+                    "caption": "Vue globale du support de bras anti gravité"
                 }
-            ]
-        }
+            },
+            {
+                "image": {
+                    "url": "images/Bras_antiG_pic2.jpeg",
+                    "caption": "Vue globale du support de bras anti gravité 2"
+                }
+            },
+            {
+                "image": {
+                    "url": "images/Annexe1_cotes_usinages.jpg",
+                    "caption": "Cotes usinage"
+                }
+            },
+            {
+                "image": {
+                    "url": "images/Annexe2_vue_eclatee_mecanisme_bras_compensateur.jpg",
+                    "caption": "Annexe2 vue eclatée du mécanisme du bras compensateur"
+                }
+            }
+        ]
     }
 }
